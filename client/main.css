@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.hand {
+    width: 25px;
+    height: 25px;
+    background-color: #cd5c5c;
+    position: absolute;
+}
+
+.notesurface {
+    background-color: #f1f1f1;
+    border-bottom-color: #800000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#rightHandNote {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    right:15px;
+    width: 50px;
+}
+
+#leftHandNote {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    left: 15px;
+    width: 50px;
+}
+
+#instrument {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    background-color: #0a0a0a;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#message {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+}
